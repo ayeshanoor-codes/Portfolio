@@ -72,7 +72,7 @@ Add your portfolio live link here:
 
 1. Clone the repository:
    
-git clone :
+git clone :https://github.com/ayeshanoor-codes/Portfolio.git
 
 2. Open the folder.  
 3. Run `index.html` in any browser.
