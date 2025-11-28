@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ayesha Noor | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/a2d9a2d56a.js" crossorigin="anonymous"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+</head>
+
+<body>
+    <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p style="text-align:center;">Feel free to reach out via email or send me a message below:</p>
+    <br>
+    <form class="contact-form"  id="contact-form"action="https://formsubmit.co/noor.developer.13@gmail.com" method="post"
+      style="max-width:500px; margin:auto; display:flex; flex-direction:column; gap:12px;">
+      <label>
+        Name
+        <input type="text" name="name" placeholder="Your name" required>
+      </label>
+      <label>
+        Email
+        <input type="email" name="email" placeholder="you@example.com" required>
+      </label>
+      <label>
+        Message
+        <textarea name="message" placeholder="Write your message" required></textarea>
+      </label>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <br>
+    <br>
+    <div class="contact-info">
+      <a href="mailto:noor.developer.13@gmail.com" target="_blank">
+        <ion-icon style="font-size: 3rem;" name="mail-outline"></ion-icon>
+      </a>
+      <a href="https://github.com/ayeshanoor-codes" target="_blank">
+        <ion-icon style="font-size: 3rem;" name="logo-github"></ion-icon>
+      </a>
+      <a href="https://www.linkedin.com/in/ayesha-noor-99a972362" target="_blank">
+        <ion-icon style="font-size: 3rem;" name="logo-linkedin"></ion-icon>
+      </a> 
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2025 Ayesha Noor. All rights reserved.</p>
+  </footer>
+      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+      
+  <script src="app.js"></script>
+
+</body>
+</html>

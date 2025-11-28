@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,31 +8,34 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/a2d9a2d56a.js" crossorigin="anonymous"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
 </head>
+
 <body>
   <header>
     <nav>
       <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
-
   <section id="home" class="hero">
     <h1>Ayesha Noor</h1>
-    <p>Aspiring Front-End Developer</p>
+    <p>A Front-End Developer</p>
     <a href="#projects" class="btn">View Projects</a>
   </section>
-
+  <div class="image">
+    <img style="width: 400px;" src="./assets/alvaro-montoro-UCa69bqJk-c-unsplash.png" alt="">
+  </div>
   <section id="about">
     <h2>About Me</h2>
-    <p style="text-align:center; max-width: 700px; margin:auto; animation: fadeIn 1s ease-in-out;">I’m Ayesha Noor, an aspiring Front-End Developer with a background in commerce. After completing my ADC, I enrolled in the Modern Mobile Application & Web Development course at Saylani Mass IT Training. I'm passionate about building responsive websites and eager to take on front-end development tasks as I grow my skills.</p>
+    <p style="text-align:center;letter-spacing: 1px; line-height: 28px; max-width: 700px; margin:auto; animation: fadeIn 1s ease-in-out;">Hi, I’m <b>Ayesha Noor</b> ,a passionate <b>Front-End Developer</b>  focused on creating responsive, user-friendly, and visually appealing web experiences. I enjoy turning ideas into clean and interactive interfaces using modern web technologies, and I'm continuously learning to expand my skills and grow in the world of web development.</p>
   </section>
-
   <section id="skills" class="skills">
     <h2>Skills</h2>
     <ul>
@@ -39,54 +43,117 @@
       <li>CSS</li>
       <li>Bootstrap</li>
       <li>Javascript</li>
+      <li>Tailwind css</li>
       <li>Responsive Web Design</li>
       <li>Git & GitHub</li>
       <li>Canva</li>
       <li>MS Word</li>
     </ul>
   </section>
+      <section id="projects" class="projects">
+    <h2>My Projects</h2>
 
-  <section id="projects" class="projects">
-    <h2>Projects</h2>
-    <div class="card">
-      <h3>Project One</h3>
-      <p>A Responsive landing page built with HTML ,CSS and BOOTSTRAP.</p>
-    <a href="https://tere-web-bootstrap-landingpage.netlify.app/" target="_blank" class="btn">View Project</a>
+    <div class="projects-grid">
+
+        <div class="project-card">
+            <a href="https://tere-web-bootstrap-landingpage.netlify.app/" target="_blank">
+                <img src="./assets/tere-web.png" alt="Project Preview">
+            </a>
+            <h3>Landing Page Design</h3>
+            <p>A responsive landing page built with HTML, CSS & BOOTSTRAP.</p>
+            <!-- <a href="https://tere-web-bootstrap-landingpage.netlify.app/" target="_blank" class="btn">View Project</a> -->
+        </div>
+
+        <div class="project-card">
+            <a href="https://1st-bootstrap-hackathon.netlify.app/" target="_blank">
+                <img src="./assets/hackathon.png" alt="Project Preview">
+            </a>
+            <h3>Hackathon Landing Page</h3>
+            <p>A Landing page created with HTML , CSS & BOOTSTRAP for hackathon.</p>
+            <!-- <a href="https://1st-bootstrap-hackathon.netlify.app/" target="_blank" class="btn">View Project</a> -->
+        </div>
+        <div class="project-card">
+            <a href="https://lipstick-landing-page.netlify.app/" target="_blank">
+                <img src="./assets/lipstick.png" alt="Project Preview">
+            </a>
+            <h3>Lipstick Landing page</h3>
+            <p>A responsive lipstick landing page  built with HTML , CSS & JAVASCRIPT.</p>
+            <!-- <a href="https://digi-clock-time.netlify.app/" target="_blank" class="btn">View Project</a> -->
+        </div>
+
+
+        <div class="project-card">
+            <a href="https://form-reg-form.netlify.app/" target="_blank">
+                <img src="./assets/reg-form.png" alt="Project Preview">
+            </a>
+            <h3>Registration Form</h3>
+            <p>Clean & modern form UI built with HTML & CSS.</p>
+            <!-- <a href="https://form-reg-form.netlify.app/" target="_blank" class="btn">View Project</a> -->
+        </div>
+
+        <div class="project-card">
+            <a href="https://digi-clock-time.netlify.app/" target="_blank">
+                <img src="./assets/Untitledvideo-MadewithClipchamp2-ezgif.com-video-to-apng-converter.png" alt="Project Preview">
+            </a>
+            <h3>Digital Clock</h3>
+            <p>Dynamic digital clock built with HTML , CSS & JAVASCRIPT.</p>
+            <!-- <a href="https://digi-clock-time.netlify.app/" target="_blank" class="btn">View Project</a> -->
+        </div>
+        <div class="project-card">
+            <a href="https://switch-toggle-btn.netlify.app/" target="_blank">
+                <img src="./assets/toggle.btn.png" alt="Project Preview">
+            </a>
+            <h3>Toggle button</h3>
+            <p>Switch button into Dark/light built with HTML , CSS & JAVASCRIPT.</p>
+            <!-- <a href="https://digi-clock-time.netlify.app/" target="_blank" class="btn">View Project</a> -->
+        </div>
+        
+
     </div>
-    <div class="card">
-      <h3>Project Two</h3>
-      <p>A Responsive landing page built with HTML ,CSS and BOOTSTRAP.</p>
-    <a href="https://1st-bootstrap-hackathon.netlify.app/" target="_blank" class="btn">View Project</a>
-    </div>
-    <div class="card">
-      <h3>Project Three</h3>
-      <p>A Responsive registration form built with HTML and CSS.</p>
-    <a href="https://form-reg-form.netlify.app/" target="_blank" class="btn">View Project</a>
-    </div>
-    <div class="card">
-      <h3>Project Four</h3>
-      <p>A Responsive Digital Clock built with HTML , CSS and JAVASCRIPT.</p>
-    <a href="https://digi-clock-time.netlify.app/" target="_blank" class="btn">View Project</a>
-    </div>
+</section>
+ 
   </section>
-
   <section id="contact" class="contact">
-    <h2>Contact</h2>
-    <div class="contact-info" style="text-align:center">
-      <p><i class="fas fa-envelope"></i> Email: <a href="mailto:noor.developer.13@gmail.com">noor.developer.13@gmail.com</a></p>
-      <p><i class="fab fa-github"></i> GitHub: <a href="https://github.com/ayeshanoor-codes" target="_blank">github.com/ayeshanoor-codes</a></p>
-      <p><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/ayesha-noor-99a972362" target="_blank">linkedin.com/in/ayesha-noor-99a972362</a></p>
+    <h2>Contact Me</h2>
+    <p style="text-align:center;">Feel free to reach out via email or send me a message below:</p>
+    <br>
+    <form class="contact-form" id="contact-form" action="https://formsubmit.co/noor.developer.13@gmail.com" method="post"
+      style="max-width:500px; margin:auto; display:flex; flex-direction:column; gap:12px;">
+      <label>
+        Name
+        <input type="text" name="name" placeholder="Your name" required>
+      </label>
+      <label>
+        Email
+        <input type="email" name="email" placeholder="you@example.com" required>
+      </label>
+      <label>
+        Message
+        <textarea name="message" placeholder="Write your message" required></textarea>
+      </label>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <br>
+    <br>
+    <div class="contact-info">
+      <a href="mailto:noor.developer.13@gmail.com" target="_blank">
+        <ion-icon style="font-size: 3rem;" name="mail-outline"></ion-icon>
+      </a>
+      <a href="https://github.com/ayeshanoor-codes" target="_blank">
+        <ion-icon style="font-size: 3rem;" name="logo-github"></ion-icon>
+      </a>
+      <a href="https://www.linkedin.com/in/ayesha-noor-99a972362" target="_blank">
+        <ion-icon style="font-size: 3rem;" name="logo-linkedin"></ion-icon>
+      </a> 
     </div>
-    <!-- <p style="text-align:center;"><em>Contact form coming soon...</em></p> -->
   </section>
-
   <footer>
-    <div class="footer-icons">
-      <a href="mailto:noor.developer.13@gmail.com"><i class="fas fa-envelope"></i></a>
-      <a href="https://github.com/ayeshanoor-codes" target="_blank"><i class="fab fa-github"></i></a>
-      <a href="https://www.linkedin.com/in/ayesha-noor-99a972362" target="_blank"><i class="fab fa-linkedin"></i></a>
-    </div>
     <p>&copy; 2025 Ayesha Noor. All rights reserved.</p>
   </footer>
+      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
+  <script src="app.js"></script>
 </body>
+
 </html>
