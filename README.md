@@ -55,7 +55,8 @@ Add your portfolio live link here:
 ---
 
 ## 📂 Folder Structure
-
+```
+.
 │── index.html
 │── about.html
 │── skills.html
@@ -64,6 +65,7 @@ Add your portfolio live link here:
 │── style.css
 │── app.js
 └── /assets (images, icons, illustrations)
+```
 
 
 ---
